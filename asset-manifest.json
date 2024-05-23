@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CodeMonitor/static/css/main.15122dcb.css",
+    "main.js": "/CodeMonitor/static/js/main.2aba8f18.js",
+    "static/js/453.43ca514b.chunk.js": "/CodeMonitor/static/js/453.43ca514b.chunk.js",
+    "static/media/147303-791344535_small.mp4": "/CodeMonitor/static/media/147303-791344535_small.6000feef0f7864cd6330.mp4",
+    "static/media/2611250-uhd_3840_2160_30fps.mp4": "/CodeMonitor/static/media/2611250-uhd_3840_2160_30fps.8b473a6d625b373e7e05.mp4",
+    "index.html": "/CodeMonitor/index.html",
+    "main.15122dcb.css.map": "/CodeMonitor/static/css/main.15122dcb.css.map",
+    "main.2aba8f18.js.map": "/CodeMonitor/static/js/main.2aba8f18.js.map",
+    "453.43ca514b.chunk.js.map": "/CodeMonitor/static/js/453.43ca514b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15122dcb.css",
+    "static/js/main.2aba8f18.js"
+  ]
+}
