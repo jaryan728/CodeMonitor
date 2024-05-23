@@ -1,0 +1,100 @@
+.videoBackground{
+    
+    position: absolute;
+  
+    z-index: -1;
+ 
+}
+.videoBackground video{
+  
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    opacity: 0.5;
+    filter: contrast(200%);
+}
+
+.a{
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+}@keyframes rotate3d {
+  from { transform: rotate3d(1, 0, 0, 0deg); opacity: 0;}
+  to { transform: rotate3d(1, 0, 0, 360deg); opacity: 1; }
+}
+
+@keyframes slidein {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0%); }
+}
+
+@keyframes bright {
+  from { font-weight: normal; }
+  to { font-weight: bold; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes rotatei {
+  from { transform: rotate3d(0, 0, 0, 0deg); }
+  to { transform: rotate3d(1, 1, 1, 360deg); }
+}
+
+.n {
+  font-size: larger;
+  animation: fadeIn 2s ease-out;
+  font-family: "Merriweather";
+  font-size: 100px;
+}
+
+.n:hover {
+  animation-name: rotatei;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.b:hover {
+  animation-name: bright;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.b {
+  animation-name: slidein;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+  .d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes slidedown {
+    from { transform: translateY(0); }
+    to { transform: translateY(50px); }
+  }
+  
+  .move img {
+    filter: invert(100%);
+    margin-top: 60px;
+    animation-name: slidedown;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  }

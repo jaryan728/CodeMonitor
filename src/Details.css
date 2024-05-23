@@ -1,0 +1,49 @@
+.dh
+ {
+    width: 100%;
+    margin: 2px;
+    text-align: center;
+    
+
+
+}
+.d{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100vw;
+    /* height: 300px; */
+    padding: 50px ;
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+    
+
+}
+input[type="text"]
+{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    width: 100%;
+    margin: 4px;
+    border: 0.5px solid gainsboro;
+    border-radius: 10px;
+
+}
+.vd
+{
+    position: absolute;
+    z-index: -1;
+   
+}
+.vd video
+{
+    object-fit: cover;
+    /* height: 300px; */
+    width: 100vw;
+}
+.error{
+    color: white;
+    
+}
